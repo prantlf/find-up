@@ -1,7 +1,7 @@
 import path from 'node:path';
 import fs from 'node:fs';
 import {locatePath, locatePathSync} from 'locate-path';
-import {toPath} from 'unicorn-magic';
+import {toPath} from 'unicorn-magic/node';
 
 export const findUpStop = Symbol('findUpStop');
 
